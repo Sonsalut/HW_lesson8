@@ -15,11 +15,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         setImage()
         setLabelContent()
-        UIView.animate(withDuration: 4.0, animations: {
+        UIView.animate(withDuration: 5.0, animations: {
             self.myLabel.frame.origin.y -= 300
             self.myLabel.alpha = 1
         })
-        UIView.animate(withDuration: 4.0, animations: {
+        UIView.animate(withDuration: 5.0, animations: {
             self.myImage.alpha = 1
         })
         
